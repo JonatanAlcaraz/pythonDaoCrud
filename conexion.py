@@ -8,8 +8,8 @@ class Conexion:
     #Datos estaticos de conexion 
 
     _DATABASE = 'test_db'
-    _USERNAME = 'postgres'
-    _PASSWORD = 'admin'
+    _USERNAME = '' #Usuario local 
+    _PASSWORD = '' #Cotraseña Local
     _HOST = '127.0.0.1'
     _DB_PORT = '5432'
     _MIN_CON = 1
