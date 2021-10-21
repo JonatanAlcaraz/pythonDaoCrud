@@ -1,0 +1,77 @@
+03:46:16 AM: DEBUG [cursor_pool.py:11] Inicio del metodo WITH __enter__
+03:46:16 AM: DEBUG [conexion.py:28] [32mCREACION DEL POOL EXITOSA:[0m <psycopg2.pool.SimpleConnectionPool object at 0x00000225E5B07F70>
+03:46:16 AM: DEBUG [conexion.py:40] [32mSE OBTUVO CONEXION CON EL POOL:[0m <connection object at 0x00000225E5E44480; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:46:16 AM: DEBUG [cursor_pool.py:17] Se ejecuta metodo exit
+03:46:16 AM: DEBUG [cursor_pool.py:23] [33mSE HACE COMMIT DE LA TRANSACCION[0m
+03:46:16 AM: DEBUG [conexion.py:46] [94mSE LIBERO CONEXION EN EL POOL:[0m <connection object at 0x00000225E5E44480; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:46:16 AM: DEBUG [menu_app.py:17] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+03:46:16 AM: DEBUG [menu_app.py:17] ID: 2 - USERNAME:prueba2 - PASSWORD: 5678
+03:46:16 AM: DEBUG [menu_app.py:17] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+03:49:07 AM: DEBUG [menu_app.py:17] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+03:49:07 AM: DEBUG [menu_app.py:17] ID: 2 - USERNAME:prueba2 - PASSWORD: 5678
+03:49:07 AM: DEBUG [menu_app.py:17] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+03:50:47 AM: DEBUG [menu_app.py:18] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+03:50:47 AM: DEBUG [menu_app.py:18] ID: 2 - USERNAME:prueba2 - PASSWORD: 5678
+03:50:47 AM: DEBUG [menu_app.py:18] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+03:53:03 AM: DEBUG [menu_app.py:19] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+03:53:03 AM: DEBUG [menu_app.py:19] ID: 2 - USERNAME:prueba2 - PASSWORD: 5678
+03:53:03 AM: DEBUG [menu_app.py:19] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+03:53:10 AM: DEBUG [usuarioDAO.py:45] Actualizacion del registro: ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+03:53:10 AM: DEBUG [menu_app.py:31] Registros actualizaos: 1
+04:01:09 AM: DEBUG [usuarioDAO.py:37] Persona a insertar: ID: None - USERNAME:usuImput - PASSWORD: 030346
+04:01:09 AM: DEBUG [menu_app.py:30] Registros insertados: 1
+04:01:15 AM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+04:01:15 AM: DEBUG [menu_app.py:22] ID: 2 - USERNAME:prueba2 - PASSWORD: 5678
+04:01:15 AM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+04:01:15 AM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+04:01:28 AM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+04:01:28 AM: DEBUG [menu_app.py:22] ID: 2 - USERNAME:prueba2 - PASSWORD: 5678
+04:01:28 AM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+04:01:28 AM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+04:03:38 AM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+04:03:38 AM: DEBUG [menu_app.py:22] ID: 2 - USERNAME:prueba2 - PASSWORD: 5678
+04:03:38 AM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+04:03:38 AM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+04:04:04 AM: DEBUG [usuarioDAO.py:53] Registro eliminado: ID: 4 - USERNAME:None - PASSWORD: None
+04:04:04 AM: DEBUG [menu_app.py:47] Registros eliminados: 0
+04:04:22 AM: DEBUG [usuarioDAO.py:53] Registro eliminado: ID: 2 - USERNAME:None - PASSWORD: None
+04:04:22 AM: DEBUG [menu_app.py:47] Registros eliminados: 1
+04:04:25 AM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+04:04:25 AM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+04:04:25 AM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+02:09:38 PM: DEBUG [usuarioDAO.py:37] Persona a insertar: ID: None - USERNAME:jonatan gay - PASSWORD: jonyselacome
+02:09:38 PM: DEBUG [menu_app.py:30] Registros insertados: 1
+02:09:43 PM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+02:09:43 PM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+02:09:43 PM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+02:09:43 PM: DEBUG [menu_app.py:22] ID: 10 - USERNAME:jonatan gay - PASSWORD: jonyselacome
+02:10:34 PM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+02:10:34 PM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+02:10:34 PM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+02:10:34 PM: DEBUG [menu_app.py:22] ID: 10 - USERNAME:jonatan gay - PASSWORD: jonyselacome
+02:10:41 PM: DEBUG [usuarioDAO.py:53] Registro eliminado: ID: 10 - USERNAME:None - PASSWORD: None
+02:10:41 PM: DEBUG [menu_app.py:47] Registros eliminados: 1
+02:10:43 PM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+02:10:43 PM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+02:10:43 PM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+02:11:54 PM: DEBUG [usuarioDAO.py:37] Persona a insertar: ID: None - USERNAME:may - PASSWORD: guasones
+02:11:54 PM: DEBUG [menu_app.py:30] Registros insertados: 1
+02:11:56 PM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+02:11:56 PM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+02:11:56 PM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+02:11:56 PM: DEBUG [menu_app.py:22] ID: 11 - USERNAME:may - PASSWORD: guasones
+08:50:22 PM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+08:50:22 PM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+08:50:22 PM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+08:50:22 PM: DEBUG [menu_app.py:22] ID: 11 - USERNAME:may - PASSWORD: guasones
+08:50:45 PM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+08:50:45 PM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+08:50:45 PM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+08:50:45 PM: DEBUG [menu_app.py:22] ID: 11 - USERNAME:may - PASSWORD: guasones
+08:51:12 PM: DEBUG [usuarioDAO.py:37] Persona a insertar: ID: None - USERNAME:Gabriel  - PASSWORD: 9809
+08:51:12 PM: DEBUG [menu_app.py:30] Registros insertados: 1
+08:51:22 PM: DEBUG [menu_app.py:22] ID: 1 - USERNAME:Jonatan Gabriel - PASSWORD: 0985
+08:51:22 PM: DEBUG [menu_app.py:22] ID: 8 - USERNAME:pruebaINS - PASSWORD: 9850
+08:51:22 PM: DEBUG [menu_app.py:22] ID: 9 - USERNAME:usuImput - PASSWORD: 030346
+08:51:22 PM: DEBUG [menu_app.py:22] ID: 11 - USERNAME:may - PASSWORD: guasones
+08:51:22 PM: DEBUG [menu_app.py:22] ID: 12 - USERNAME:Gabriel  - PASSWORD: 9809
